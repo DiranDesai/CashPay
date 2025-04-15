@@ -11,9 +11,9 @@ function Profile() {
         <ArrowLeftIcon className="h-6 w-6 font-bold text-gray-500" />
         <div className="flex justify-center items-center mt-4">
             <div className="flex flex-col justify-center items-center space-y-1">
-                <h2 className="text-2xl font-[500]">My profile</h2>
+                <h2 className="text-xl font-[500]">My profile</h2>
                 <img src={profilePic} className="w-25 h-25 mt-5 rounded-full" alt="" />
-                <h2 className="text-xl font-[500]">Oladele Joshua</h2>
+                <h2 className="text-md font-[500]">Oladele Joshua</h2>
                 <p className="font-bold">Teacher</p>
             </div>
         </div>

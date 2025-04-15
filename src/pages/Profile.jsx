@@ -23,6 +23,7 @@ function Profile() {
         <ProfileMenu Icon={<LockClosedIcon />} title="Account settings"/>
         <ProfileMenu Icon={<InformationCircleIcon />} title="Help and feedback"/>
         <ProfileMenu Icon={<ShoppingBagIcon />} title="Online services"/>
+        <button className="bg-blue-600 text-white p-4 rounded-sm w-full my-10">Sign Out</button>
     </div>
   )
 }

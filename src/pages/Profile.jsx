@@ -14,7 +14,7 @@ function Profile() {
                 <h2 className="text-xl font-[500]">My profile</h2>
                 <img src={profilePic} className="w-25 h-25 mt-5 rounded-full" alt="" />
                 <h2 className="text-md font-[500]">Oladele Joshua</h2>
-                <p className="font-bold">Teacher</p>
+                <p className="font-bold text-sm">Teacher</p>
             </div>
         </div>
         <ProfileMenu Icon={<CheckBadgeIcon />} title="Credit limit"/>

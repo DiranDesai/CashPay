@@ -21,7 +21,7 @@ function SignUp() {
           </label>
           <input
             type="text"
-            className="w-full mt-2 px-4 py-3 border border-gray-300 rounded-sm focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500 transition"
+            className="w-full shadow-sm mt-2 px-4 py-3 border border-gray-300 rounded-sm focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500 transition"
           />
         </div>
         <div className="mt-5">
@@ -30,7 +30,7 @@ function SignUp() {
           </label>
           <input
             type="text"
-            className="w-full mt-2 px-4 py-3 border border-gray-300 rounded-sm focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500 transition"
+            className="w-full shadow-sm mt-2 px-4 py-3 border border-gray-300 rounded-sm focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500 transition"
           />
         </div>
         <div className="mt-5">
@@ -39,7 +39,7 @@ function SignUp() {
           </label>
           <input
             type="text"
-            className="w-full mt-2 px-4 py-3 border border-gray-300 rounded-sm focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500 transition"
+            className="w-full shadow-sm mt-2 px-4 py-3 border border-gray-300 rounded-sm focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500 transition"
           />
         </div>
         <div className="mt-5">
@@ -48,7 +48,7 @@ function SignUp() {
           </label>
           <input
             type="password"
-            className="w-full mt-2 px-4 py-3 border border-gray-300 rounded-sm focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500 transition"
+            className="w-full shadow-sm mt-2 px-4 py-3 border border-gray-300 rounded-sm focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500 transition"
           />
         </div>
         <button type="button" className="w-full mt-10 text-white bg-blue-500 p-2 rounded-sm hover:bg-blue-600 transition duration-200 ease-in-out">

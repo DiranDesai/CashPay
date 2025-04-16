@@ -8,20 +8,20 @@ function SignUp() {
   return (
     <div className="signup px-4 py-2">
       <div className="flex flex-col justify-center items-center">
-        <img src={logo2} alt="" className="mr-6" />
-        <div className="text-center relative bottom-10">
+        <img src={logo2} alt="" className="mr-6 relative bottom-10" />
+        <div className="text-center relative bottom-20">
             <h2 className="text-2xl font-bold">Create Account</h2>
             <p>Lendsia. Quick loans, no hassle. </p>
         </div>
       </div>
-      <form className="p-4">
+      <form className="px-4">
       <div className="mt-2">
           <label htmlFor="email" className="font-medium">
             Username
           </label>
           <input
             type="text"
-            className="w-full mt-2 px-4 py-2 border border-gray-300 rounded-sm focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500 transition"
+            className="w-full mt-2 px-4 py-3 border border-gray-300 rounded-sm focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500 transition"
           />
         </div>
         <div className="mt-5">
@@ -30,7 +30,7 @@ function SignUp() {
           </label>
           <input
             type="text"
-            className="w-full mt-2 px-4 py-2 border border-gray-300 rounded-sm focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500 transition"
+            className="w-full mt-2 px-4 py-3 border border-gray-300 rounded-sm focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500 transition"
           />
         </div>
         <div className="mt-5">
@@ -39,7 +39,7 @@ function SignUp() {
           </label>
           <input
             type="text"
-            className="w-full mt-2 px-4 py-2 border border-gray-300 rounded-sm focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500 transition"
+            className="w-full mt-2 px-4 py-3 border border-gray-300 rounded-sm focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500 transition"
           />
         </div>
         <div className="mt-5">
@@ -48,7 +48,7 @@ function SignUp() {
           </label>
           <input
             type="password"
-            className="w-full mt-2 px-4 py-2 border border-gray-300 rounded-sm focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500 transition"
+            className="w-full mt-2 px-4 py-3 border border-gray-300 rounded-sm focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500 transition"
           />
         </div>
         <button type="button" className="w-full mt-10 text-white bg-blue-500 p-2 rounded-sm hover:bg-blue-600 transition duration-200 ease-in-out">

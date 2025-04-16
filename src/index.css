@@ -59,5 +59,6 @@ button:focus-visible {
 
 .login label, .signup label{
   margin-bottom: 40px !important;
+  font-weight: 400;
 }
 

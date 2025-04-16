@@ -23,8 +23,8 @@ function Login() {
             <div className="flex justify-end mt-2">
                 <span className="text-sm font-medium"><Link>forgot password</Link></span>
             </div>
-            <button type="button" className="bg-red-700 w-full mt-10 text-white">Login</button>
-            <div className="flex justify-center items-center mt-4 space-x-7 mt-5">
+            <button type="button" className="w-full mt-10 text-white">Login</button>
+            <div className="flex justify-center items-center mt-4 space-x-7 mt-10">
                 <div className="bg-white p-5 shadow-md w-15 rounded-full h-15">
                     <img src={google} alt="" />
                 </div>
@@ -34,6 +34,10 @@ function Login() {
                 <div className="bg-white p-5 shadow-md w-15 rounded-full h-15">
                 <img src={twitter} alt="" />
                 </div>
+            </div>
+            <div className="flex justify-center items-center mt-4 space-x-2 font-sm">
+                <p className="text-sm">Don't have an account?</p>
+                <Link to="/signup" className="text-blue-700">Sign Up</Link>
             </div>
         </form>
     </div>

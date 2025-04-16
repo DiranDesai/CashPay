@@ -1,5 +1,5 @@
 import React from 'react'
-import {CheckBadgeIcon, LockClosedIcon, UserGroupIcon, InformationCircleIcon, ShoppingBagIcon, CalendarDaysIcon } from '@heroicons/react/24/outline';
+import {CheckBadgeIcon, LockClosedIcon, UserGroupIcon, InformationCircleIcon, ShoppingBagIcon, CalendarDaysIcon, PencilSquareIcon } from '@heroicons/react/24/outline';
 import TopBar from '../components/TopBar'
 import profilePic from '../assets/profile.avif'
 import ProfileMenu from '../components/ProfileMenu';
@@ -8,12 +8,14 @@ function Profile() {
   return (
     <div className="px-4 py-2">
         <TopBar />
+        <PencilSquareIcon className="h-7 w-7 font-bold bg-blue-400 text-white rounded-full p-2 hover:bg-red absolute right-35 top-25" />
         <div className="flex justify-center items-center mt-4">
             <div className="flex flex-col justify-center items-center space-y-1">
                 <h2 className="text-xl font-[500]">My profile</h2>
                 <img src={profilePic} className="w-25 h-25 mt-5 rounded-full" alt="" />
                 <h2 className="text-md font-[500]">Oladele Joshua</h2>
                 <p className="font-bold text-sm bg-blue-400 font-normal text-white scale-75 p-2 rounded-sm">Mechnical Engineer</p>
+                
             </div>
         </div>
         <ProfileMenu Icon={<CheckBadgeIcon />} title="Credit limit"/>

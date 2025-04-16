@@ -16,7 +16,8 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  background-color: #f2f2f9;
+  /* background-color: #f2f2f9; */
+  background-color: white;
 }
 
 a {

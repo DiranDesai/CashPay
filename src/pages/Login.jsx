@@ -1,5 +1,6 @@
 import React from 'react'
 import logo from '../assets/logo.png'
+import logo2 from '../assets/logo2.png'
 import google from '../assets/google.png'
 import twitter from '../assets/twitter.png'
 import phone from '../assets/phone.png'
@@ -9,10 +10,10 @@ function Login() {
   return (
     <div className="px-4 py-2">
         <div className="flex flex-col justify-center items-center">
-            <img src={logo} alt="" />
+            <img src={logo2} alt="" className="mr-6" />
         </div>
         <form>
-            <div className="mt-4">
+            <div className="mt-2">
                 <label htmlFor="email" className="font-medium">Email</label>
                 <input type="text" className="w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent" />
             </div>

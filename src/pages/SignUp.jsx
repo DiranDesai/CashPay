@@ -1,19 +1,37 @@
 import React from "react";
-import logo from "../assets/logo.png";
 import logo2 from "../assets/logo2.png";
 import { Link } from "react-router-dom";
 import SocialIcons from "../components/SocialIcons";
 
-function Login() {
+
+function SignUp() {
   return (
-    <div className="login px-4 py-2">
+    <div className="signup px-4 py-2">
       <div className="flex flex-col justify-center items-center">
         <img src={logo2} alt="" className="mr-6" />
       </div>
       <form>
-        <div className="mt-2">
+      <div className="mt-2">
+          <label htmlFor="email" className="font-medium">
+            Username
+          </label>
+          <input
+            type="text"
+            className="w-full px-4 py-2 border border-gray-300 rounded-sm focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500 transition"
+          />
+        </div>
+        <div className="mt-5">
           <label htmlFor="email" className="font-medium">
             Email
+          </label>
+          <input
+            type="text"
+            className="w-full px-4 py-2 border border-gray-300 rounded-sm focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500 transition"
+          />
+        </div>
+        <div className="mt-5">
+          <label htmlFor="email" className="font-medium">
+            Phone number
           </label>
           <input
             type="text"
@@ -29,24 +47,13 @@ function Login() {
             className="w-full px-4 py-2 border border-gray-300 rounded-sm focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500 transition"
           />
         </div>
-        <div className="flex justify-end mt-2">
-          <span className="text-sm font-medium underline">
-            <Link>forgot password</Link>
-          </span>
-        </div>
-        <button type="button" className="w-full mt-10 text-white">
-          Login
+        <button type="button" className="w-full mt-10 text-white bg-blue-500 p-2 rounded-sm hover:bg-blue-600 transition duration-200 ease-in-out">
+          Signup
         </button>
       </form>
-     <SocialIcons />
-      <div className="flex justify-center items-center mt-4 space-x-2 font-sm">
-        <p className="text-sm">Don't have an account?</p>
-        <Link to="/signup" className="text-blue-700">
-          sign up
-        </Link>
-      </div>
+      <SocialIcons />
     </div>
   );
 }
 
-export default Login;
+export default SignUp;

@@ -1,5 +1,5 @@
 import React from "react";
-import logo2 from "../assets/logo2.png";
+import logo from "../assets/logo.png";
 import { Link } from "react-router-dom";
 import SocialIcons from "../components/SocialIcons";
 
@@ -8,11 +8,7 @@ function SignUp() {
   return (
     <div className="signup px-4 py-2">
       <div className="flex flex-col justify-center items-center">
-        <img src={logo2} alt="" className="mr-6 relative bottom-10" />
-        <div className="text-center relative bottom-20">
-            <h2 className="text-2xl font-bold">Create Account</h2>
-            <p>Lendsia. Quick loans, no hassle. </p>
-        </div>
+        <img src={logo} alt="" />
       </div>
       <form className="px-4">
       <div className="mt-2">

@@ -8,7 +8,7 @@ function Login() {
   return (
     <div className="login px-4 py-2">
       <div className="flex flex-col justify-center items-center">
-        <img src={logo2} alt="" className="mr-6 relative bottom-10" />
+        <img src={logo} alt="" />
       </div>
       <form className="p-4">
         <div className="mt-2">
